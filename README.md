@@ -2,12 +2,12 @@
 # humans-are-invited
 This is captcha solver for [humansnotinvited.com](http://humansnotinvited.com).
 
-##Requirements
+## Requirements
 - Node.js
 - Some modules: request, cheerio, image-to-base64, md5. To install these, run:
 `npm install request cheerio image-to-base64 md5`.
 
-##Running the code
+## Running the code
 To solve the captcha we need to count how many times a picture appears in certain category. So, we need some data. To collect them, run from command line:
 `node feed.js`
 
