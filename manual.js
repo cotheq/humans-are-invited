@@ -81,7 +81,7 @@ function mark(x) {
 function solve() {
 
 	var browserCode = `
-		var cat = $(".header strong").html()
+		var cat = $(".header strong").html();
 		var imgs = [];
 		for (i = 1; i <= 9; i++) {
 			imgs.push($($("img")[i]).attr("src").toString());
